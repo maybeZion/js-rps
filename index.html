@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel='stylesheet' href='styles/reset.css' type='text/css' media='all'>
+    <link rel='stylesheet' href='styles/style.css' type='text/css' media='all'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  </head>
+  <body>
+    <header class='shadowed'>
+    <div id='title'>
+      Rock, Paper, Scissors!
+    </div>
+      <ul>
+        <li id='games-played'>Games Played: 0</li>
+        <li id='games-won'>Games Won: 0</li>
+      </ul>
+    </header>
+    <main>
+      <div class='shadowed' id='result'>
+        Click on your choice, then press "Submit".
+      </div>
+      <div class='shadowed' id='user-selection'>
+        <button class='rps-choice' id='rock'>
+          <img src='images/rock.png' class='rps-images' alt='Rock'></img>
+        </button>
+        <button class='rps-choice' id='paper'>
+          <img src='images/paper.png' class='rps-images' alt='Paper'></img>
+        </button>
+        <button class='rps-choice' id='scissors'>
+          <img src='images/scissors.png' class='rps-images' alt='Scissors'></img>
+        </button>
+      </div>
+        <button class='shadowed' id='submit-button'>
+          Submit
+        </button>
+        <button class='shadowed' id='reset-button'>
+          Reset
+        </button>
+    </main>
+  </body>
+  <script src='script.js'></script>
+</html>
